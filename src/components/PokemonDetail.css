@@ -1,0 +1,40 @@
+
+.div-pokemon-detail {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.div-pokemon-detail .div-details {
+    position: relative;
+    text-align: center;
+    min-height: 468px;
+}
+
+.div-pokemon-detail .div-details .div-details-contents {
+    position: relative;
+    display: inline-block;
+    width: 345px;
+    min-height: 275px;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+.div-details-contents > h1 {
+    margin-bottom: 20px;
+}
+
+.div-details-contents > table {
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.div-details-contents > table td,
+.div-details-contents > table th {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.div-details-contents > table th {
+    background-color: gainsboro;
+}

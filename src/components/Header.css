@@ -1,0 +1,24 @@
+
+.div-header {
+    max-width: 865px;
+    margin: 7px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-header > div {
+    height: 60px;
+    width: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.div-logo-pokemon {
+    background: url('pokemon-logo.png');
+}
+
+.div-logo-pokeapi {
+    background: url('pokeapi-logo.png');
+}

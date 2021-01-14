@@ -1,0 +1,27 @@
+#div-image-pokemon {
+    text-align: center;
+}
+
+#img-pokemon {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border: 8px solid #B7B7B7;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+#div-switch-image {
+    position: relative;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    background-image: url("Switch.png");
+    width: 56px;
+    height: 56px;
+    background-size: 80px;
+    background-position: -12px -12px;
+    background-repeat: no-repeat;
+    margin: -36px auto 0 auto;
+    border-radius: 50%;
+    z-index: 99;
+}

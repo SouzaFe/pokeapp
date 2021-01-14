@@ -1,0 +1,36 @@
+
+.div-container {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+    max-width: 865px;
+    min-height: 525px;
+    min-width: 346px;
+    margin: 20px auto 20px auto;
+    background: white;
+    box-shadow: 3px 3px 30px 8px #000;
+}
+
+.div-container > ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 924px) {
+    .div-container {
+        max-width: 693px;
+    }
+}
+
+@media (max-width: 751px) {
+    .div-container {
+        max-width: 520px;
+    }
+}
+
+@media (max-width: 578px) {
+    .div-container {
+        max-width: 346px;
+    }
+}

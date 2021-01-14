@@ -1,0 +1,45 @@
+
+.div-item-list {
+    position: relative;
+    list-style-type: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 161px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+    box-shadow: 3px 3px 6px 1px #ccc;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    transition: all .13s ease-in-out;
+    font-size: 12px;
+}
+
+.div-item-list:hover {
+    transform: scale(1.04);
+}
+
+.div-item-list > a {
+    text-decoration: none;
+    color: #000000;
+    height: 80px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.div-item-list > a > img {
+    margin: -10px 0 -8px 0;
+    width: 75px;
+    height: 75px;
+}
+
+.div-item-list > a > p {
+    font-weight: bold;
+    margin: 0;
+}

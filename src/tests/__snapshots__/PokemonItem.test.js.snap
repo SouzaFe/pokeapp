@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gerar o snapshot do componente 1`] = `"<li class=\\"div-item-list\\"><a href=\\"/Pokemon/pikachu\\"><img alt=\\"pikachu\\" src=\\"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png\\"><p>pikachu</p></a></li>"`;
